@@ -1,0 +1,44 @@
+//
+// Prefix header for all source files of the 'C4MProject' target in the 'C4MProject' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #import <QuartzCore/QuartzCore.h>
+#endif
+
+
+#define kAppStore				@"AppStore"
+#define kAdHoc					@"AdHoc"
+#define kDebug					@"Debug"
+
+#ifdef build_configuration
+
+#if build_configuration == 1 // Debug Mode
+#define C4MLog(...) NSLog(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
+#define kJsonRequestURL kDebug
+#endif
+
+#if build_configuration == 2 // AppStore Mode
+#define C4MLog(...) do { } while (0)
+#define kJsonRequestURL kAppStore
+#endif
+
+#if build_configuration == 3 // AdHoc Mode
+#define C4MLog(...) do { } while (0)
+#define kJsonRequestURL kAdHoc 
+#endif
+
+#else // Default to same as AppStore Mode
+#define C4MLog(...) do { } while (0)
+// PROD
+#define kJsonRequestURL kAppStore
+#endif
