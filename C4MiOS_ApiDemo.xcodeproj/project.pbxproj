@@ -49,6 +49,15 @@
 		31EC66B21524A030008C711E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31EC66A915249ED9008C711E /* Default@2x.png */; };
 		31EC66B41524A06B008C711E /* Icon_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 31EC66B31524A06B008C711E /* Icon_iPad.png */; };
 		31EC66B61524A06F008C711E /* Icon_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31EC66B51524A06F008C711E /* Icon_iPad@2x.png */; };
+		665F0E2D159B322A0065CD5B /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F0E2B159B322A0065CD5B /* CarouselViewController.m */; };
+		665F0E2E159B322A0065CD5B /* CarouselViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E2C159B322A0065CD5B /* CarouselViewController.xib */; };
+		665F0E31159B33D90065CD5B /* carouselContent.plist in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E30159B33D90065CD5B /* carouselContent.plist */; };
+		665F0E36159B36860065CD5B /* CurvedCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F0E34159B36860065CD5B /* CurvedCarousel.m */; };
+		665F0E37159B36860065CD5B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E35159B36860065CD5B /* README.md */; };
+		665F0E3C159B3E6F0065CD5B /* CarouselItemView_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E38159B3E6F0065CD5B /* CarouselItemView_ipad.xib */; };
+		665F0E3D159B3E6F0065CD5B /* CarouselItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E39159B3E6F0065CD5B /* CarouselItemView.xib */; };
+		665F0E3E159B3E6F0065CD5B /* item_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E3A159B3E6F0065CD5B /* item_off.png */; };
+		665F0E3F159B3E6F0065CD5B /* item_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E3B159B3E6F0065CD5B /* item_on.png */; };
 		6686DE9F1598B1D500E24E07 /* RequestManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6686DE9D1598B1D500E24E07 /* RequestManagerViewController.m */; };
 		6686DEA01598B1D500E24E07 /* RequestManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6686DE9E1598B1D500E24E07 /* RequestManagerViewController.xib */; };
 		6686DEA61598B6CD00E24E07 /* api.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6686DEA51598B6CD00E24E07 /* api.plist */; };
@@ -123,6 +132,17 @@
 		31EC66AF15249FE3008C711E /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 		31EC66B31524A06B008C711E /* Icon_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_iPad.png; sourceTree = "<group>"; };
 		31EC66B51524A06F008C711E /* Icon_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon_iPad@2x.png"; sourceTree = "<group>"; };
+		665F0E2A159B322A0065CD5B /* CarouselViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselViewController.h; sourceTree = "<group>"; };
+		665F0E2B159B322A0065CD5B /* CarouselViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselViewController.m; sourceTree = "<group>"; };
+		665F0E2C159B322A0065CD5B /* CarouselViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarouselViewController.xib; sourceTree = "<group>"; };
+		665F0E30159B33D90065CD5B /* carouselContent.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = carouselContent.plist; path = C4MProject/Source/CurvedCarousel/carouselContent.plist; sourceTree = SOURCE_ROOT; };
+		665F0E33159B36860065CD5B /* CurvedCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurvedCarousel.h; sourceTree = "<group>"; };
+		665F0E34159B36860065CD5B /* CurvedCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurvedCarousel.m; sourceTree = "<group>"; };
+		665F0E35159B36860065CD5B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		665F0E38159B3E6F0065CD5B /* CarouselItemView_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarouselItemView_ipad.xib; sourceTree = "<group>"; };
+		665F0E39159B3E6F0065CD5B /* CarouselItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarouselItemView.xib; sourceTree = "<group>"; };
+		665F0E3A159B3E6F0065CD5B /* item_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item_off.png; sourceTree = "<group>"; };
+		665F0E3B159B3E6F0065CD5B /* item_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item_on.png; sourceTree = "<group>"; };
 		6686DE9C1598B1D500E24E07 /* RequestManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManagerViewController.h; sourceTree = "<group>"; };
 		6686DE9D1598B1D500E24E07 /* RequestManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManagerViewController.m; sourceTree = "<group>"; };
 		6686DE9E1598B1D500E24E07 /* RequestManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RequestManagerViewController.xib; sourceTree = "<group>"; };
@@ -231,6 +251,7 @@
 		31EC663D152493E7008C711E /* Asset */ = {
 			isa = PBXGroup;
 			children = (
+				665F0E30159B33D90065CD5B /* carouselContent.plist */,
 				6686DEA51598B6CD00E24E07 /* api.plist */,
 			);
 			path = Asset;
@@ -239,6 +260,7 @@
 		31EC663E152493E7008C711E /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				665F0E32159B36860065CD5B /* C4MiOS_CurvedCarousel */,
 				66F7C0731599BC3100B2283A /* C4MiOS_RequestManager */,
 				31EC669F15249901008C711E /* GoogleAnalytics */,
 				31EC669B152497EA008C711E /* LocalizedLabel */,
@@ -318,6 +340,7 @@
 				31EC6676152493FE008C711E /* MasterViewController.xib */,
 				6686DE961598AE5C00E24E07 /* ImageManager */,
 				6686DE971598AE5C00E24E07 /* RequestManager */,
+				665F0E29159B322A0065CD5B /* CurvedCarousel */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -346,6 +369,31 @@
 				31EC661A15249153008C711E /* C4MProject.xcdatamodeld */,
 			);
 			path = DataBase;
+			sourceTree = "<group>";
+		};
+		665F0E29159B322A0065CD5B /* CurvedCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				665F0E38159B3E6F0065CD5B /* CarouselItemView_ipad.xib */,
+				665F0E39159B3E6F0065CD5B /* CarouselItemView.xib */,
+				665F0E3A159B3E6F0065CD5B /* item_off.png */,
+				665F0E3B159B3E6F0065CD5B /* item_on.png */,
+				665F0E2A159B322A0065CD5B /* CarouselViewController.h */,
+				665F0E2B159B322A0065CD5B /* CarouselViewController.m */,
+				665F0E2C159B322A0065CD5B /* CarouselViewController.xib */,
+			);
+			path = CurvedCarousel;
+			sourceTree = "<group>";
+		};
+		665F0E32159B36860065CD5B /* C4MiOS_CurvedCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				665F0E33159B36860065CD5B /* CurvedCarousel.h */,
+				665F0E34159B36860065CD5B /* CurvedCarousel.m */,
+				665F0E35159B36860065CD5B /* README.md */,
+			);
+			name = C4MiOS_CurvedCarousel;
+			path = ../../../C4MiOS_CurvedCarousel;
 			sourceTree = "<group>";
 		};
 		6686DE961598AE5C00E24E07 /* ImageManager */ = {
@@ -454,6 +502,13 @@
 				6686DEA61598B6CD00E24E07 /* api.plist in Resources */,
 				6686DEAB1598B9F100E24E07 /* ImageManagerViewController.xib in Resources */,
 				66F7C0821599BC3100B2283A /* README.md in Resources */,
+				665F0E2E159B322A0065CD5B /* CarouselViewController.xib in Resources */,
+				665F0E31159B33D90065CD5B /* carouselContent.plist in Resources */,
+				665F0E37159B36860065CD5B /* README.md in Resources */,
+				665F0E3C159B3E6F0065CD5B /* CarouselItemView_ipad.xib in Resources */,
+				665F0E3D159B3E6F0065CD5B /* CarouselItemView.xib in Resources */,
+				665F0E3E159B3E6F0065CD5B /* item_off.png in Resources */,
+				665F0E3F159B3E6F0065CD5B /* item_on.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +542,8 @@
 				66F7C07F1599BC3100B2283A /* C4MRequest.m in Sources */,
 				66F7C0801599BC3100B2283A /* C4MRequestGroup.m in Sources */,
 				66F7C0811599BC3100B2283A /* C4MRequestManager.m in Sources */,
+				665F0E2D159B322A0065CD5B /* CarouselViewController.m in Sources */,
+				665F0E36159B36860065CD5B /* CurvedCarousel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,6 +23,7 @@
 #import "MasterViewController.h"
 #import "RequestManagerViewController.h"
 #import "ImageManagerViewController.h"
+#import "CarouselViewController.h"
 
 @interface MasterViewController ()
 
@@ -109,7 +110,11 @@
         } else if ([ctrl isEqualToString:@"ImageManagerViewController"]){
             ImageManagerViewController *cvc = [[[ImageManagerViewController alloc] initWithNibName:@"ImageManagerViewController" bundle:nil] autorelease];
             [self.navigationController pushViewController:cvc animated:YES];
+        } else if ([ctrl isEqualToString:@"CarouselViewController"]){
+            CarouselViewController *cvc = [[[CarouselViewController alloc] initWithNibName:@"CarouselViewController" bundle:nil] autorelease];
+            [self.navigationController pushViewController:cvc animated:YES];
         }
+        
     }
     
 	

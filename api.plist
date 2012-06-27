@@ -6,6 +6,12 @@
 	<array>
 		<dict>
 			<key>label</key>
+			<string>Curved Carousel</string>
+			<key>controller</key>
+			<string>CarouselViewController</string>
+		</dict>
+		<dict>
+			<key>label</key>
 			<string>Request Manager</string>
 			<key>controller</key>
 			<string>RequestManagerViewController</string>
