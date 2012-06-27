@@ -1,0 +1,76 @@
+{
+    "description" : "Request Model",
+    "type" : "array",
+    "items" : {
+        "title" : "A request object",
+        "type" : "object",
+        "properties" : {
+            "request" : {
+                "type" : "string",
+                "enum" : [
+                    "getStores" 
+                ] 
+            },
+            "response" : {
+                "title" : "A response object",
+                "type" : "object",
+                "properties" : {
+                    "statusCode" : {
+                        "type" : "integer",
+                        "minimumCanEqual" : 0 
+                    },
+                    "storesList" : {
+                        "type" : "array",
+                        "items" : {
+                            "title" : "A Store object",
+                            "type" : "object",
+                            "properties" : {
+                                "name" : {
+                                    "type" : "string" 
+                                },
+                                "address1" : {
+                                    "type" : "string" 
+                                },
+                                "address2" : {
+                                    "type" : "string" 
+                                },
+                                "schedule" : {
+                                    "type" : "string" 
+                                },
+                                "contact" : {
+                                    "type" : "string" 
+                                },
+                                "mail" : {
+                                    "type" : "string" 
+                                },
+                                "phone" : {
+                                    "type" : "string" 
+                                },
+                                "fax" : {
+                                    "type" : "string" 
+                                },
+                                "city" : {
+                                    "type" : "string" 
+                                },
+                                "postalCode" : {
+                                    "type" : "string" 
+                                },
+                                "longitude" : {
+                                    "type" : "string" 
+                                },
+                                "latitude" : {
+                                    "type" : "string" 
+                                },
+                                "img" : {
+                                    "type" : "string" 
+                                } 
+                            } 
+                        },
+                        "maxItems" : 10 
+                    } 
+                } 
+            } 
+        } 
+    },
+    "minItems" : 1 
+}

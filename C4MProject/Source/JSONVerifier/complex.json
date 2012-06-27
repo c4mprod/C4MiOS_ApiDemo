@@ -1,0 +1,24 @@
+{
+    "request" : "getUpdate",
+    "dateLastUpdated" : 1297260021,
+    "opticiansUpdated" : {
+        "addModify" : [
+            {
+                "City" : "EPERNAY",
+                "Civility" : "Monsieur",
+                "Email" : "-",
+                "Id" : "C09999",
+                "faxNumber" : "0326531562",
+                "opticianAddress" : "14 Rue Saint Martin",
+                "opticianFirstName" : "Alain",
+                "opticianName" : "SAVARY",
+                "phoneNumber" : "0326548819",
+                "postalCode" : 51200 
+            } 
+        ],
+        "delete" : [
+            "C00689",
+            "C00687" 
+        ] 
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "description" : "Request Model",
+    "type" : "object",
+	"properties" : 
+	{
+			"dateLastUpdated" : 
+			{
+                "type" : "number"
+			},
+			"opticiansUpdated" : 
+			{
+				"type"	: "object",
+				"properties" : 
+				{
+					"addModify" : 
+					{
+						"type" : "array",
+						"items" : 
+						{
+							"type" : "object",
+							"properties" : 
+							{
+								"City" :  
+								{
+									"type" : "string"
+								},
+								"Civility" : 
+								{
+									"type" : "string"
+								},
+								"Email" : 
+								{
+									"type" : "string"
+								},
+								"Id" : 
+								{
+									"type" : "string"
+								},
+								"faxNumber" : 
+								{
+									"type" : "string"
+								},
+								"opticianAddress" : 
+								{
+									"type" : "string"
+								},
+								"opticianFirstName" : 
+								{
+									"type" : "string"
+								},
+								"opticianName" : 
+								{
+									"type" : "string"
+								},
+								"phoneNumber" : 
+								{
+									"type" : "string"
+								},
+								"postalCode" : 
+								{
+									"type" : "number"
+								}
+							}
+						}
+					},
+					"delete" : 
+					{
+						"type" : "array",
+						"items" : 
+						{
+							"type" : "string"
+						}
+						
+					}
+					
+				}
+            }
+	}
+}

@@ -1,0 +1,46 @@
+{
+	 "description" : "Example Contact Information Array JSON Schema",
+	 "type" : "array",
+	 "items" : {
+		 "title" : "A Contact Information object",
+		 "type" : "object",
+		 "properties" : {
+		 "name" : {
+			 "type" : "string",
+			 "enum" : ["home", "work", "other"],
+			 "minLength" : 4
+		 },
+		 "phone" : {
+			 "type" : "string",
+			 "optional" : true,
+			 "format" : "phone"
+			 "pattern" : ".3021.*"
+		 },
+		 "mobile" : {
+			 "type" : "string",
+			 "optional" : true,
+			 "format" : "phone"
+		 },
+		 "email" : {
+			 "type" : "string",
+			 "optional" : true,
+			 "format" : "email"
+		 },
+		 "age" : {
+			 "type" : "integer",
+			 "optional" : true,
+			 "minimum" : "7",
+			 "maximum" : "77"
+		 },
+         "scores" : {
+			 "type" : "array",
+			 "optional" : true,
+			 "items" : {
+                "type" : "number"
+             }
+		 }
+	 },
+	 "minItems" : 1,
+	 "maxItems" : 3
+	 }
+ }

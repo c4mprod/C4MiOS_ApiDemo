@@ -6,6 +6,12 @@
 	<array>
 		<dict>
 			<key>label</key>
+			<string>JSON Verifier</string>
+			<key>controller</key>
+			<string>JSONVerifierViewController</string>
+		</dict>
+		<dict>
+			<key>label</key>
 			<string>Curved Carousel</string>
 			<key>controller</key>
 			<string>CarouselViewController</string>

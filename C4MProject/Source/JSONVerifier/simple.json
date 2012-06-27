@@ -1,0 +1,4 @@
+[
+{ "name" : "work", "phone" : "+302108029409", "email": "nvah@instore.gr" },
+ { "name" : "home", "phone" : "+302109349764", "email": "nico@vahlas.eu", "age" : 30, "scores" : [10,25,18,29] }
+ ]

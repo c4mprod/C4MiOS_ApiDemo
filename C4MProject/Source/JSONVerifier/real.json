@@ -1,0 +1,84 @@
+[
+{
+"request":"getStores",
+"response":
+	{
+	"statusCode":0,
+	"storesList":
+		[
+		{
+		"name":"Atol les opticiens",
+		"address1":"52 rue de Rome",
+		"address2":"",
+		"schedule":"Du mardi au samedi de 9h30 \u00e0 19h00",
+		"contact":"Laurent BONNATERRE",
+		"mail":"webmaster@opticiens-atol.com",
+		"phone":"04.91.33.10.44",
+		"fax":"04.91.54.48.14",
+		"city":"MARSEILLE",
+		"postalCode":"13001",
+		"longitude":"5.3796901",
+		"img":"http:\/\/www.opticiens-atol.com\/store\/store_selector_v2.jpg",
+		"latitude":"43.29309"
+		},
+		{
+		"name":"BONNEFOY OPTICIENS",
+		"address1":"83 boulevard Chave","address2":"",
+		"schedule":"le lundi de 14h30 \u00e0 19h du mardi au samedi de 9h \u00e0 12h et de 14h30 \u00e0 19h",
+		"contact":"BONY Eric",
+		"mail":"webmaster@opticiens-atol.com",
+		"phone":"04.91.47.01.09","fax":"04.91.92.33.89",
+		"city":"MARSEILLE","postalCode":"13005",
+		"longitude":"5.3922548",
+		"img":"http:\/\/www.opticiens-atol.com\/store\/store_selector_v2.jpg",
+		"latitude":"43.295366"
+		},
+		{
+		"name":"MARTIN OPTICIENS",
+		"address1":"3 Avenue du Prado",
+		"address2":"",
+		"schedule":"Du Lundi au Samedi de 9H30 \u00e0 19H",
+		"contact":"MARTIN Chritian",
+		"mail":"webmaster@opticiens-atol.com",
+		"phone":"04.91.78.01.11","fax":"04.91.78.04.40",
+		"city":"MARSEILLE",
+		"postalCode":"13006",
+		"longitude":"5.3863398",
+		"img":"http:\/\/www.opticiens-atol.com\/store\/store_selector_v2.jpg",
+		"latitude":"43.2820088"
+		},
+		{
+		"name":"YAPP OPTICIENS",
+		"address1":"47 rue Alphonse Daudet",
+		"address2":"",
+		"schedule":"Du lundi au samedi de 9h \u00e0 12h30 et de 14h30 \u00e0 19h",
+		"contact":"YAPP Robert",
+		"mail":"webmaster@opticiens-atol.com",
+		"phone":"04.91.66.11.87","fax":"04.91.06.59.35",
+		"city":"MARSEILLE","postalCode":"13013",
+		"longitude":"5.4077972",
+		"img":"http:\/\/www.opticiens-atol.com\/store\/store_selector_v2.jpg",
+		"latitude":"43.3188484"
+		},
+		{
+		"name":"ATOL OPTICIENS","address1":"57-59 rue Montaigne","address2":"","schedule":"Du Lundi au Samedi de 9h \u00e0 12h et de 15h \u00e0 19h","contact":"GAVAULT Laurent","mail":"webmaster@opticiens-atol.com","phone":"04.91.85.45.49","fax":"04.91.85.40.88","city":"MARSEILLE","postalCode":"13012","longitude":"5.416162","img":"http:\/\/www.opticiens-atol.com\/store\/store_selector_v2.jpg","latitude":"43.3040016"
+		},
+		{
+		"name":"Atol les opticiens","address1":"40 Bd de Ste Marguerite","address2":"","schedule":"Du lundi au samedi de 9h00 \u00e0 12h00 et de 14h00 \u00e0 19h00","contact":"GAVAULT Laurent","mail":"webmaster@opticiens-atol.com","phone":"04.91.82.32.90","fax":"04.91.82.32.96","city":"MARSEILLE","postalCode":"13009","longitude":"5.4044073","img":"http:\/\/www.opticiens-atol.com\/store\/store_selector_v2.jpg","latitude":"43.2685697"
+		},
+		{
+		"name":"YAPP OPTICIENS","address1":"98 bd de Saint Loup","address2":"","schedule":"Du lundi au samedi de 9h \u00e0 12h30 et de 14h \u00e0 19h","contact":"YAPP Robert","mail":"webmaster@opticiens-atol.com","phone":"04.91.35.29.86","fax":"04.91.45.28.05","city":"MARSEILLE","postalCode":"13010","longitude":"5.4315307","img":"http:\/\/www.opticiens-atol.com\/store\/store_selector_v2.jpg","latitude":"43.2825816"
+		},
+		{
+		"name":"CRISTAL OPTICIENS","address1":"77 avenue Frederic Chevillon","address2":"","schedule":"Du mardi au vendredi de 9h \u00e0 12h et 14h30 19h Samedi 9h \u00e0 12h30 et 15h 19h ferm\u00e9 le lundi toute la journ\u00e9e","contact":"PATON Audrey","mail":"webmaster@opticiens-atol.com","phone":"04.91.68.34.09","fax":"04.91.68.71.54","city":"PLAN DE CUQUES","postalCode":"13800","longitude":"5.4636109","img":"http:\/\/www.opticiens-atol.com\/store\/store_selector_v2.jpg","latitude":"43.347364"
+		},
+		{
+		"name":"ATOL OPTICIENS","address1":"Galerie Marchande de Fonyvielle","address2":"Route des 4 Saisons","schedule":"Du mardi au vendredi de 9h \u00e0 12h et 14h30 19h Samedi 9h \u00e0 12h30 et 15h 19h ferm\u00e9 le lundi toute la journ\u00e9e","contact":"PATON Audrey","mail":"webmaster@opticiens-atol.com","phone":"04.91.68.29.88","fax":"04.91.64.48.05","city":"ALLAUCH","postalCode":"13190","longitude":"5.509247","img":"http:\/\/www.opticiens-atol.com\/store\/store_selector_v2.jpg","latitude":"43.3609248"
+		},
+		{
+		"name":"ATOL OPTICIENS","address1":"RN 8 - Centre Commercial San Baquis","address2":"","schedule":"du mardi au samedi de 9h \u00e0 12h15 et de 14h30 \u00e0 19h15","contact":"KWANIESKI Romain","mail":"webmaster@opticiens-atol.com","phone":"04.42.52.64.53","fax":"04.42.52.66.49","city":"BOUC BEL AIR","postalCode":"13320","longitude":"5.4044268","img":"http:\/\/www.opticiens-atol.com\/store\/store_selector_v2.jpg","latitude":"43.4428466"
+		}
+		]
+	}
+}
+]

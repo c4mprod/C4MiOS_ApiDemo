@@ -24,6 +24,7 @@
 #import "RequestManagerViewController.h"
 #import "ImageManagerViewController.h"
 #import "CarouselViewController.h"
+#import "JSONVerifierViewController.h"
 
 @interface MasterViewController ()
 
@@ -113,7 +114,11 @@
         } else if ([ctrl isEqualToString:@"CarouselViewController"]){
             CarouselViewController *cvc = [[[CarouselViewController alloc] initWithNibName:@"CarouselViewController" bundle:nil] autorelease];
             [self.navigationController pushViewController:cvc animated:YES];
+        } else if ([ctrl isEqualToString:@"JSONVerifierViewController"]){
+            JSONVerifierViewController *cvc = [[[JSONVerifierViewController alloc] initWithNibName:@"JSONVerifierViewController" bundle:nil] autorelease];
+            [self.navigationController pushViewController:cvc animated:YES];
         }
+        
         
     }
     

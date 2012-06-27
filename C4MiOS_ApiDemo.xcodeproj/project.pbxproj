@@ -58,6 +58,23 @@
 		665F0E3D159B3E6F0065CD5B /* CarouselItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E39159B3E6F0065CD5B /* CarouselItemView.xib */; };
 		665F0E3E159B3E6F0065CD5B /* item_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E3A159B3E6F0065CD5B /* item_off.png */; };
 		665F0E3F159B3E6F0065CD5B /* item_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E3B159B3E6F0065CD5B /* item_on.png */; };
+		665F0E4E159B485E0065CD5B /* array-model.json in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E41159B485E0065CD5B /* array-model.json */; };
+		665F0E4F159B485E0065CD5B /* array.json in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E42159B485E0065CD5B /* array.json */; };
+		665F0E51159B485E0065CD5B /* complex-model.json in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E45159B485E0065CD5B /* complex-model.json */; };
+		665F0E52159B485E0065CD5B /* complex.json in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E46159B485E0065CD5B /* complex.json */; };
+		665F0E53159B485E0065CD5B /* real-model.json in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E47159B485E0065CD5B /* real-model.json */; };
+		665F0E54159B485E0065CD5B /* real.json in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E48159B485E0065CD5B /* real.json */; };
+		665F0E55159B485E0065CD5B /* JSONVerifierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F0E4A159B485E0065CD5B /* JSONVerifierViewController.m */; };
+		665F0E56159B485E0065CD5B /* JSONVerifierViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E4B159B485E0065CD5B /* JSONVerifierViewController.xib */; };
+		665F0E57159B485E0065CD5B /* simple-model.json in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E4C159B485E0065CD5B /* simple-model.json */; };
+		665F0E58159B485E0065CD5B /* simple.json in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E4D159B485E0065CD5B /* simple.json */; };
+		665F0E6A159B48E40065CD5B /* C4MJSONVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F0E5B159B48E40065CD5B /* C4MJSONVerifier.m */; };
+		665F0E6B159B48E40065CD5B /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F0E5F159B48E40065CD5B /* NSObject+SBJSON.m */; };
+		665F0E6C159B48E40065CD5B /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F0E61159B48E40065CD5B /* NSString+SBJSON.m */; };
+		665F0E6D159B48E40065CD5B /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F0E63159B48E40065CD5B /* SBJSON.m */; };
+		665F0E6E159B48E40065CD5B /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F0E65159B48E40065CD5B /* SBJsonBase.m */; };
+		665F0E6F159B48E40065CD5B /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F0E67159B48E40065CD5B /* SBJsonParser.m */; };
+		665F0E70159B48E40065CD5B /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F0E69159B48E40065CD5B /* SBJsonWriter.m */; };
 		6686DE9F1598B1D500E24E07 /* RequestManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6686DE9D1598B1D500E24E07 /* RequestManagerViewController.m */; };
 		6686DEA01598B1D500E24E07 /* RequestManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6686DE9E1598B1D500E24E07 /* RequestManagerViewController.xib */; };
 		6686DEA61598B6CD00E24E07 /* api.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6686DEA51598B6CD00E24E07 /* api.plist */; };
@@ -143,6 +160,32 @@
 		665F0E39159B3E6F0065CD5B /* CarouselItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarouselItemView.xib; sourceTree = "<group>"; };
 		665F0E3A159B3E6F0065CD5B /* item_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item_off.png; sourceTree = "<group>"; };
 		665F0E3B159B3E6F0065CD5B /* item_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item_on.png; sourceTree = "<group>"; };
+		665F0E41159B485E0065CD5B /* array-model.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "array-model.json"; sourceTree = "<group>"; };
+		665F0E42159B485E0065CD5B /* array.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = array.json; sourceTree = "<group>"; };
+		665F0E45159B485E0065CD5B /* complex-model.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "complex-model.json"; sourceTree = "<group>"; };
+		665F0E46159B485E0065CD5B /* complex.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = complex.json; sourceTree = "<group>"; };
+		665F0E47159B485E0065CD5B /* real-model.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "real-model.json"; sourceTree = "<group>"; };
+		665F0E48159B485E0065CD5B /* real.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = real.json; sourceTree = "<group>"; };
+		665F0E49159B485E0065CD5B /* JSONVerifierViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = JSONVerifierViewController.h; sourceTree = "<group>"; };
+		665F0E4A159B485E0065CD5B /* JSONVerifierViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONVerifierViewController.m; sourceTree = "<group>"; };
+		665F0E4B159B485E0065CD5B /* JSONVerifierViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSONVerifierViewController.xib; sourceTree = "<group>"; };
+		665F0E4C159B485E0065CD5B /* simple-model.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "simple-model.json"; sourceTree = "<group>"; };
+		665F0E4D159B485E0065CD5B /* simple.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = simple.json; sourceTree = "<group>"; };
+		665F0E5A159B48E40065CD5B /* C4MJSONVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4MJSONVerifier.h; sourceTree = "<group>"; };
+		665F0E5B159B48E40065CD5B /* C4MJSONVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4MJSONVerifier.m; sourceTree = "<group>"; };
+		665F0E5D159B48E40065CD5B /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		665F0E5E159B48E40065CD5B /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		665F0E5F159B48E40065CD5B /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		665F0E60159B48E40065CD5B /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		665F0E61159B48E40065CD5B /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		665F0E62159B48E40065CD5B /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		665F0E63159B48E40065CD5B /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		665F0E64159B48E40065CD5B /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		665F0E65159B48E40065CD5B /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		665F0E66159B48E40065CD5B /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		665F0E67159B48E40065CD5B /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		665F0E68159B48E40065CD5B /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		665F0E69159B48E40065CD5B /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		6686DE9C1598B1D500E24E07 /* RequestManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManagerViewController.h; sourceTree = "<group>"; };
 		6686DE9D1598B1D500E24E07 /* RequestManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManagerViewController.m; sourceTree = "<group>"; };
 		6686DE9E1598B1D500E24E07 /* RequestManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RequestManagerViewController.xib; sourceTree = "<group>"; };
@@ -260,6 +303,7 @@
 		31EC663E152493E7008C711E /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				665F0E59159B48E40065CD5B /* C4MiOS_JSONVerifier */,
 				665F0E32159B36860065CD5B /* C4MiOS_CurvedCarousel */,
 				66F7C0731599BC3100B2283A /* C4MiOS_RequestManager */,
 				31EC669F15249901008C711E /* GoogleAnalytics */,
@@ -341,6 +385,7 @@
 				6686DE961598AE5C00E24E07 /* ImageManager */,
 				6686DE971598AE5C00E24E07 /* RequestManager */,
 				665F0E29159B322A0065CD5B /* CurvedCarousel */,
+				665F0E40159B485E0065CD5B /* JSONVerifier */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -394,6 +439,55 @@
 			);
 			name = C4MiOS_CurvedCarousel;
 			path = ../../../C4MiOS_CurvedCarousel;
+			sourceTree = "<group>";
+		};
+		665F0E40159B485E0065CD5B /* JSONVerifier */ = {
+			isa = PBXGroup;
+			children = (
+				665F0E41159B485E0065CD5B /* array-model.json */,
+				665F0E42159B485E0065CD5B /* array.json */,
+				665F0E45159B485E0065CD5B /* complex-model.json */,
+				665F0E46159B485E0065CD5B /* complex.json */,
+				665F0E47159B485E0065CD5B /* real-model.json */,
+				665F0E48159B485E0065CD5B /* real.json */,
+				665F0E49159B485E0065CD5B /* JSONVerifierViewController.h */,
+				665F0E4A159B485E0065CD5B /* JSONVerifierViewController.m */,
+				665F0E4B159B485E0065CD5B /* JSONVerifierViewController.xib */,
+				665F0E4C159B485E0065CD5B /* simple-model.json */,
+				665F0E4D159B485E0065CD5B /* simple.json */,
+			);
+			path = JSONVerifier;
+			sourceTree = "<group>";
+		};
+		665F0E59159B48E40065CD5B /* C4MiOS_JSONVerifier */ = {
+			isa = PBXGroup;
+			children = (
+				665F0E5A159B48E40065CD5B /* C4MJSONVerifier.h */,
+				665F0E5B159B48E40065CD5B /* C4MJSONVerifier.m */,
+				665F0E5C159B48E40065CD5B /* JSON */,
+			);
+			name = C4MiOS_JSONVerifier;
+			path = ../../../C4MiOS_JSONVerifier;
+			sourceTree = "<group>";
+		};
+		665F0E5C159B48E40065CD5B /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				665F0E5D159B48E40065CD5B /* JSON.h */,
+				665F0E5E159B48E40065CD5B /* NSObject+SBJSON.h */,
+				665F0E5F159B48E40065CD5B /* NSObject+SBJSON.m */,
+				665F0E60159B48E40065CD5B /* NSString+SBJSON.h */,
+				665F0E61159B48E40065CD5B /* NSString+SBJSON.m */,
+				665F0E62159B48E40065CD5B /* SBJSON.h */,
+				665F0E63159B48E40065CD5B /* SBJSON.m */,
+				665F0E64159B48E40065CD5B /* SBJsonBase.h */,
+				665F0E65159B48E40065CD5B /* SBJsonBase.m */,
+				665F0E66159B48E40065CD5B /* SBJsonParser.h */,
+				665F0E67159B48E40065CD5B /* SBJsonParser.m */,
+				665F0E68159B48E40065CD5B /* SBJsonWriter.h */,
+				665F0E69159B48E40065CD5B /* SBJsonWriter.m */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 		6686DE961598AE5C00E24E07 /* ImageManager */ = {
@@ -509,6 +603,15 @@
 				665F0E3D159B3E6F0065CD5B /* CarouselItemView.xib in Resources */,
 				665F0E3E159B3E6F0065CD5B /* item_off.png in Resources */,
 				665F0E3F159B3E6F0065CD5B /* item_on.png in Resources */,
+				665F0E4E159B485E0065CD5B /* array-model.json in Resources */,
+				665F0E4F159B485E0065CD5B /* array.json in Resources */,
+				665F0E51159B485E0065CD5B /* complex-model.json in Resources */,
+				665F0E52159B485E0065CD5B /* complex.json in Resources */,
+				665F0E53159B485E0065CD5B /* real-model.json in Resources */,
+				665F0E54159B485E0065CD5B /* real.json in Resources */,
+				665F0E56159B485E0065CD5B /* JSONVerifierViewController.xib in Resources */,
+				665F0E57159B485E0065CD5B /* simple-model.json in Resources */,
+				665F0E58159B485E0065CD5B /* simple.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,6 +647,14 @@
 				66F7C0811599BC3100B2283A /* C4MRequestManager.m in Sources */,
 				665F0E2D159B322A0065CD5B /* CarouselViewController.m in Sources */,
 				665F0E36159B36860065CD5B /* CurvedCarousel.m in Sources */,
+				665F0E55159B485E0065CD5B /* JSONVerifierViewController.m in Sources */,
+				665F0E6A159B48E40065CD5B /* C4MJSONVerifier.m in Sources */,
+				665F0E6B159B48E40065CD5B /* NSObject+SBJSON.m in Sources */,
+				665F0E6C159B48E40065CD5B /* NSString+SBJSON.m in Sources */,
+				665F0E6D159B48E40065CD5B /* SBJSON.m in Sources */,
+				665F0E6E159B48E40065CD5B /* SBJsonBase.m in Sources */,
+				665F0E6F159B48E40065CD5B /* SBJsonParser.m in Sources */,
+				665F0E70159B48E40065CD5B /* SBJsonWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
