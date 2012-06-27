@@ -80,6 +80,10 @@
 		665F0E78159B4FEF0065CD5B /* PotentiometerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E75159B4FEF0065CD5B /* PotentiometerViewController.xib */; };
 		665F0E7E159B50980065CD5B /* C4MPotentiometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F0E7B159B50980065CD5B /* C4MPotentiometer.m */; };
 		665F0E7F159B50980065CD5B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E7D159B50980065CD5B /* README.md */; };
+		665F0E8D159B60160065CD5B /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F0E85159B60160065CD5B /* ImageManager.m */; };
+		665F0E8E159B60160065CD5B /* ImageViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F0E88159B60160065CD5B /* ImageViewManager.m */; };
+		665F0E8F159B60160065CD5B /* ImageViewManagerRound.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F0E8B159B60160065CD5B /* ImageViewManagerRound.m */; };
+		665F0E90159B60160065CD5B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E8C159B60160065CD5B /* README.md */; };
 		6686DE9F1598B1D500E24E07 /* RequestManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6686DE9D1598B1D500E24E07 /* RequestManagerViewController.m */; };
 		6686DEA01598B1D500E24E07 /* RequestManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6686DE9E1598B1D500E24E07 /* RequestManagerViewController.xib */; };
 		6686DEA61598B6CD00E24E07 /* api.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6686DEA51598B6CD00E24E07 /* api.plist */; };
@@ -199,6 +203,15 @@
 		665F0E7B159B50980065CD5B /* C4MPotentiometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4MPotentiometer.m; sourceTree = "<group>"; };
 		665F0E7C159B50980065CD5B /* C4MPotentiometerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4MPotentiometerDelegate.h; sourceTree = "<group>"; };
 		665F0E7D159B50980065CD5B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		665F0E84159B60160065CD5B /* ImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManager.h; sourceTree = "<group>"; };
+		665F0E85159B60160065CD5B /* ImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManager.m; sourceTree = "<group>"; };
+		665F0E86159B60160065CD5B /* ImageManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManagerDelegate.h; sourceTree = "<group>"; };
+		665F0E87159B60160065CD5B /* ImageViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewManager.h; sourceTree = "<group>"; };
+		665F0E88159B60160065CD5B /* ImageViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewManager.m; sourceTree = "<group>"; };
+		665F0E89159B60160065CD5B /* ImageViewManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewManagerDelegate.h; sourceTree = "<group>"; };
+		665F0E8A159B60160065CD5B /* ImageViewManagerRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewManagerRound.h; sourceTree = "<group>"; };
+		665F0E8B159B60160065CD5B /* ImageViewManagerRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewManagerRound.m; sourceTree = "<group>"; };
+		665F0E8C159B60160065CD5B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		6686DE9C1598B1D500E24E07 /* RequestManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManagerViewController.h; sourceTree = "<group>"; };
 		6686DE9D1598B1D500E24E07 /* RequestManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManagerViewController.m; sourceTree = "<group>"; };
 		6686DE9E1598B1D500E24E07 /* RequestManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RequestManagerViewController.xib; sourceTree = "<group>"; };
@@ -316,6 +329,7 @@
 		31EC663E152493E7008C711E /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				665F0E83159B60150065CD5B /* C4MiOS_ImageManager */,
 				665F0E79159B50980065CD5B /* C4MiOS_Potentiometer */,
 				665F0E59159B48E40065CD5B /* C4MiOS_JSONVerifier */,
 				665F0E32159B36860065CD5B /* C4MiOS_CurvedCarousel */,
@@ -528,6 +542,23 @@
 			path = ../../../C4MiOS_Potentiometer;
 			sourceTree = "<group>";
 		};
+		665F0E83159B60150065CD5B /* C4MiOS_ImageManager */ = {
+			isa = PBXGroup;
+			children = (
+				665F0E84159B60160065CD5B /* ImageManager.h */,
+				665F0E85159B60160065CD5B /* ImageManager.m */,
+				665F0E86159B60160065CD5B /* ImageManagerDelegate.h */,
+				665F0E87159B60160065CD5B /* ImageViewManager.h */,
+				665F0E88159B60160065CD5B /* ImageViewManager.m */,
+				665F0E89159B60160065CD5B /* ImageViewManagerDelegate.h */,
+				665F0E8A159B60160065CD5B /* ImageViewManagerRound.h */,
+				665F0E8B159B60160065CD5B /* ImageViewManagerRound.m */,
+				665F0E8C159B60160065CD5B /* README.md */,
+			);
+			name = C4MiOS_ImageManager;
+			path = ../../../C4MiOS_ImageManager;
+			sourceTree = "<group>";
+		};
 		6686DE961598AE5C00E24E07 /* ImageManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -653,6 +684,7 @@
 				665F0E76159B4FEF0065CD5B /* btn02_base.png in Resources */,
 				665F0E78159B4FEF0065CD5B /* PotentiometerViewController.xib in Resources */,
 				665F0E7F159B50980065CD5B /* README.md in Resources */,
+				665F0E90159B60160065CD5B /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,6 +730,9 @@
 				665F0E70159B48E40065CD5B /* SBJsonWriter.m in Sources */,
 				665F0E77159B4FEF0065CD5B /* PotentiometerViewController.m in Sources */,
 				665F0E7E159B50980065CD5B /* C4MPotentiometer.m in Sources */,
+				665F0E8D159B60160065CD5B /* ImageManager.m in Sources */,
+				665F0E8E159B60160065CD5B /* ImageViewManager.m in Sources */,
+				665F0E8F159B60160065CD5B /* ImageViewManagerRound.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

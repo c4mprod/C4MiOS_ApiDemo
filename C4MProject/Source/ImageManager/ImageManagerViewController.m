@@ -55,4 +55,32 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (IBAction)onFetch:(id)sender
+{
+    mSpinner.hidden = FALSE;
+    mImage.hidden = TRUE;
+    
+    if (mImageManagerInstance == nil)
+	{
+		mImageManagerInstance = [[ImageManager alloc] init];
+		
+	}
+    
+    //Can be used with a UITableViewCell Image in a list
+    mImage.image = [mImageManagerInstance getImageNamed:@"http://www.c4mprod.com/wp-content/themes/C4M/images/logo_c4m.png" withDelegate:self];
+    
+}
+
+- (void) didUpdateImage:(NSArray*)_array
+{
+    mSpinner.hidden = TRUE;
+    mImage.hidden = FALSE;
+    
+}
+
+- (void) willUpdateImage {
+    
+    
+}
+
 @end

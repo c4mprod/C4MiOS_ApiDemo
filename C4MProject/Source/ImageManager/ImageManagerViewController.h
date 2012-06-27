@@ -21,7 +21,19 @@
  ******************************************************************************/
 
 #import <UIKit/UIKit.h>
+#import "ImageManager.h"
+#import "ImageManagerDelegate.h"
 
-@interface ImageManagerViewController : UIViewController
+@interface ImageManagerViewController : UIViewController <ImageManagerDelegate>
+{
+    IBOutlet UIButton *mFetchBtn;
+    IBOutlet UIImageView *mImage;
+    IBOutlet UIActivityIndicatorView *mSpinner;
+    
+    ImageManager *mImageManagerInstance;
+
+}
+
+- (IBAction)onFetch:(id)sender;
 
 @end
