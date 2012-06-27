@@ -6,6 +6,12 @@
 	<array>
 		<dict>
 			<key>label</key>
+			<string>Potentiometer</string>
+			<key>controller</key>
+			<string>PotentiometerViewController</string>
+		</dict>
+		<dict>
+			<key>label</key>
 			<string>JSON Verifier</string>
 			<key>controller</key>
 			<string>JSONVerifierViewController</string>
