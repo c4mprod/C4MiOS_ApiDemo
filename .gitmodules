@@ -1,0 +1,27 @@
+[submodule "C4MProject/Library/C4MiOS_CustomPopup"]
+	path = C4MProject/Library/C4MiOS_CustomPopup
+	url = https://github.com/c4mprod/C4MiOS_CustomPopup.git
+[submodule "C4MProject/Library/C4MiOS_UIAutoResizeLabel"]
+	path = C4MProject/Library/C4MiOS_UIAutoResizeLabel
+	url = https://github.com/c4mprod/C4MiOS_UIAutoResizeLabel.git
+[submodule "C4MProject/Library/C4MiOS_JSONVerifier"]
+	path = C4MProject/Library/C4MiOS_JSONVerifier
+	url = https://github.com/c4mprod/C4MiOS_JSONVerifier.git
+[submodule "C4MProject/Library/C4MiOS_RequestManager"]
+	path = C4MProject/Library/C4MiOS_RequestManager
+	url = https://github.com/c4mprod/C4MiOS_RequestManager.git
+[submodule "C4MProject/Library/C4MiOS_ImageManager"]
+	path = C4MProject/Library/C4MiOS_ImageManager
+	url = https://github.com/c4mprod/C4MiOS_ImageManager.git
+[submodule "C4MProject/Library/C4MiOS_Potentiometer"]
+	path = C4MProject/Library/C4MiOS_Potentiometer
+	url = https://github.com/c4mprod/C4MiOS_Potentiometer.git
+[submodule "C4MProject/Library/C4MiOS_CurvedCarousel"]
+	path = C4MProject/Library/C4MiOS_CurvedCarousel
+	url = https://github.com/c4mprod/C4MiOS_CurvedCarousel.git
+[submodule "C4MProject/Library/C4MiOS_PageControl"]
+	path = C4MProject/Library/C4MiOS_PageControl
+	url = https://github.com/c4mprod/C4MiOS_PageControl.git
+[submodule "C4MProject/Library/C4MiOS_LocationManager"]
+	path = C4MProject/Library/C4MiOS_LocationManager
+	url = https://github.com/c4mprod/C4MiOS_LocationManager.git
