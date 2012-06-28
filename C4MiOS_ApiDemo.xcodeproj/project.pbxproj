@@ -84,6 +84,18 @@
 		665F0E8E159B60160065CD5B /* ImageViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F0E88159B60160065CD5B /* ImageViewManager.m */; };
 		665F0E8F159B60160065CD5B /* ImageViewManagerRound.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F0E8B159B60160065CD5B /* ImageViewManagerRound.m */; };
 		665F0E90159B60160065CD5B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E8C159B60160065CD5B /* README.md */; };
+		665F0E99159B67E80065CD5B /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F0E97159B67E80065CD5B /* GalleryViewController.m */; };
+		665F0E9A159B67E80065CD5B /* GalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E98159B67E80065CD5B /* GalleryViewController.xib */; };
+		665F0E9F159B6A6C0065CD5B /* point_beige.png in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E9B159B6A6C0065CD5B /* point_beige.png */; };
+		665F0EA0159B6A6C0065CD5B /* point_beige@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E9C159B6A6C0065CD5B /* point_beige@2x.png */; };
+		665F0EA1159B6A6C0065CD5B /* point_rouge.png in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E9D159B6A6C0065CD5B /* point_rouge.png */; };
+		665F0EA2159B6A6C0065CD5B /* point_rouge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665F0E9E159B6A6C0065CD5B /* point_rouge@2x.png */; };
+		665F0EA9159B6B9B0065CD5B /* Gallery.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F0EA5159B6B9B0065CD5B /* Gallery.m */; };
+		665F0EAA159B6B9B0065CD5B /* GalleryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F0EA7159B6B9B0065CD5B /* GalleryCell.m */; };
+		665F0EAB159B6B9B0065CD5B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 665F0EA8159B6B9B0065CD5B /* README.md */; };
+		665F0EAD159B6BD40065CD5B /* GalleryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665F0EAC159B6BD40065CD5B /* GalleryCell.xib */; };
+		665F0EB2159B6C150065CD5B /* C4MPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F0EB0159B6C150065CD5B /* C4MPageControl.m */; };
+		665F0EB3159B6C150065CD5B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 665F0EB1159B6C150065CD5B /* README.md */; };
 		6686DE9F1598B1D500E24E07 /* RequestManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6686DE9D1598B1D500E24E07 /* RequestManagerViewController.m */; };
 		6686DEA01598B1D500E24E07 /* RequestManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6686DE9E1598B1D500E24E07 /* RequestManagerViewController.xib */; };
 		6686DEA61598B6CD00E24E07 /* api.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6686DEA51598B6CD00E24E07 /* api.plist */; };
@@ -212,6 +224,22 @@
 		665F0E8A159B60160065CD5B /* ImageViewManagerRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewManagerRound.h; sourceTree = "<group>"; };
 		665F0E8B159B60160065CD5B /* ImageViewManagerRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewManagerRound.m; sourceTree = "<group>"; };
 		665F0E8C159B60160065CD5B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		665F0E96159B67E80065CD5B /* GalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
+		665F0E97159B67E80065CD5B /* GalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
+		665F0E98159B67E80065CD5B /* GalleryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GalleryViewController.xib; sourceTree = "<group>"; };
+		665F0E9B159B6A6C0065CD5B /* point_beige.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point_beige.png; sourceTree = "<group>"; };
+		665F0E9C159B6A6C0065CD5B /* point_beige@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "point_beige@2x.png"; sourceTree = "<group>"; };
+		665F0E9D159B6A6C0065CD5B /* point_rouge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point_rouge.png; sourceTree = "<group>"; };
+		665F0E9E159B6A6C0065CD5B /* point_rouge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "point_rouge@2x.png"; sourceTree = "<group>"; };
+		665F0EA4159B6B9B0065CD5B /* Gallery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gallery.h; sourceTree = "<group>"; };
+		665F0EA5159B6B9B0065CD5B /* Gallery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gallery.m; sourceTree = "<group>"; };
+		665F0EA6159B6B9B0065CD5B /* GalleryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryCell.h; sourceTree = "<group>"; };
+		665F0EA7159B6B9B0065CD5B /* GalleryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryCell.m; sourceTree = "<group>"; };
+		665F0EA8159B6B9B0065CD5B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		665F0EAC159B6BD40065CD5B /* GalleryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GalleryCell.xib; sourceTree = "<group>"; };
+		665F0EAF159B6C150065CD5B /* C4MPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4MPageControl.h; sourceTree = "<group>"; };
+		665F0EB0159B6C150065CD5B /* C4MPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4MPageControl.m; sourceTree = "<group>"; };
+		665F0EB1159B6C150065CD5B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		6686DE9C1598B1D500E24E07 /* RequestManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManagerViewController.h; sourceTree = "<group>"; };
 		6686DE9D1598B1D500E24E07 /* RequestManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManagerViewController.m; sourceTree = "<group>"; };
 		6686DE9E1598B1D500E24E07 /* RequestManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RequestManagerViewController.xib; sourceTree = "<group>"; };
@@ -329,6 +357,8 @@
 		31EC663E152493E7008C711E /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				665F0EAE159B6C150065CD5B /* C4MiOS_PageControl */,
+				665F0EA3159B6B9B0065CD5B /* C4MiOS_GalleryView */,
 				665F0E83159B60150065CD5B /* C4MiOS_ImageManager */,
 				665F0E79159B50980065CD5B /* C4MiOS_Potentiometer */,
 				665F0E59159B48E40065CD5B /* C4MiOS_JSONVerifier */,
@@ -415,6 +445,7 @@
 				665F0E29159B322A0065CD5B /* CurvedCarousel */,
 				665F0E40159B485E0065CD5B /* JSONVerifier */,
 				665F0E71159B4FEF0065CD5B /* Potentiometer */,
+				665F0E95159B67A20065CD5B /* GalleryView */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -559,6 +590,45 @@
 			path = ../../../C4MiOS_ImageManager;
 			sourceTree = "<group>";
 		};
+		665F0E95159B67A20065CD5B /* GalleryView */ = {
+			isa = PBXGroup;
+			children = (
+				665F0E9B159B6A6C0065CD5B /* point_beige.png */,
+				665F0E9C159B6A6C0065CD5B /* point_beige@2x.png */,
+				665F0E9D159B6A6C0065CD5B /* point_rouge.png */,
+				665F0E9E159B6A6C0065CD5B /* point_rouge@2x.png */,
+				665F0E96159B67E80065CD5B /* GalleryViewController.h */,
+				665F0E97159B67E80065CD5B /* GalleryViewController.m */,
+				665F0E98159B67E80065CD5B /* GalleryViewController.xib */,
+				665F0EAC159B6BD40065CD5B /* GalleryCell.xib */,
+			);
+			path = GalleryView;
+			sourceTree = "<group>";
+		};
+		665F0EA3159B6B9B0065CD5B /* C4MiOS_GalleryView */ = {
+			isa = PBXGroup;
+			children = (
+				665F0EA4159B6B9B0065CD5B /* Gallery.h */,
+				665F0EA5159B6B9B0065CD5B /* Gallery.m */,
+				665F0EA6159B6B9B0065CD5B /* GalleryCell.h */,
+				665F0EA7159B6B9B0065CD5B /* GalleryCell.m */,
+				665F0EA8159B6B9B0065CD5B /* README.md */,
+			);
+			name = C4MiOS_GalleryView;
+			path = ../../../C4MiOS_GalleryView;
+			sourceTree = "<group>";
+		};
+		665F0EAE159B6C150065CD5B /* C4MiOS_PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				665F0EAF159B6C150065CD5B /* C4MPageControl.h */,
+				665F0EB0159B6C150065CD5B /* C4MPageControl.m */,
+				665F0EB1159B6C150065CD5B /* README.md */,
+			);
+			name = C4MiOS_PageControl;
+			path = ../../../C4MiOS_PageControl;
+			sourceTree = "<group>";
+		};
 		6686DE961598AE5C00E24E07 /* ImageManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -685,6 +755,14 @@
 				665F0E78159B4FEF0065CD5B /* PotentiometerViewController.xib in Resources */,
 				665F0E7F159B50980065CD5B /* README.md in Resources */,
 				665F0E90159B60160065CD5B /* README.md in Resources */,
+				665F0E9A159B67E80065CD5B /* GalleryViewController.xib in Resources */,
+				665F0E9F159B6A6C0065CD5B /* point_beige.png in Resources */,
+				665F0EA0159B6A6C0065CD5B /* point_beige@2x.png in Resources */,
+				665F0EA1159B6A6C0065CD5B /* point_rouge.png in Resources */,
+				665F0EA2159B6A6C0065CD5B /* point_rouge@2x.png in Resources */,
+				665F0EAB159B6B9B0065CD5B /* README.md in Resources */,
+				665F0EAD159B6BD40065CD5B /* GalleryCell.xib in Resources */,
+				665F0EB3159B6C150065CD5B /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -733,6 +811,10 @@
 				665F0E8D159B60160065CD5B /* ImageManager.m in Sources */,
 				665F0E8E159B60160065CD5B /* ImageViewManager.m in Sources */,
 				665F0E8F159B60160065CD5B /* ImageViewManagerRound.m in Sources */,
+				665F0E99159B67E80065CD5B /* GalleryViewController.m in Sources */,
+				665F0EA9159B6B9B0065CD5B /* Gallery.m in Sources */,
+				665F0EAA159B6B9B0065CD5B /* GalleryCell.m in Sources */,
+				665F0EB2159B6C150065CD5B /* C4MPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

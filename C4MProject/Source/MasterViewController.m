@@ -26,6 +26,7 @@
 #import "CarouselViewController.h"
 #import "JSONVerifierViewController.h"
 #import "PotentiometerViewController.h"
+#import "GalleryViewController.h"
 
 @interface MasterViewController ()
 
@@ -120,6 +121,9 @@
             [self.navigationController pushViewController:cvc animated:YES];
         } else if ([ctrl isEqualToString:@"PotentiometerViewController"]){
             PotentiometerViewController *cvc = [[[PotentiometerViewController alloc] initWithNibName:@"PotentiometerViewController" bundle:nil] autorelease];
+            [self.navigationController pushViewController:cvc animated:YES];
+        }  else if ([ctrl isEqualToString:@"GalleryViewController"]){
+            GalleryViewController *cvc = [[[GalleryViewController alloc] initWithNibName:@"GalleryViewController" bundle:nil] autorelease];
             [self.navigationController pushViewController:cvc animated:YES];
         }
         

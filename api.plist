@@ -6,6 +6,12 @@
 	<array>
 		<dict>
 			<key>label</key>
+			<string>Gallery</string>
+			<key>controller</key>
+			<string>GalleryViewController</string>
+		</dict>
+		<dict>
+			<key>label</key>
 			<string>Potentiometer</string>
 			<key>controller</key>
 			<string>PotentiometerViewController</string>
