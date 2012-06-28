@@ -43,6 +43,7 @@
 						<string key="NSFrame">{{142, 61}, {37, 37}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="820034367"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -52,11 +53,11 @@
 					</object>
 					<object class="IBUIImageView" id="880499706">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">-2147483374</int>
+						<int key="NSvFlags">274</int>
 						<string key="NSFrame">{{100, 20}, {120, 120}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="820034367"/>
+						<reference key="NSNextKeyView" ref="416176219"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -205,6 +206,7 @@
 				<string key="-2.CustomClassName">UIResponder</string>
 				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="1.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="4.CustomClassName">ImageViewManager</string>
 				<string key="4.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="5.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -233,7 +235,7 @@
 					</object>
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="mFetchBtn">UIButton</string>
-						<string key="mImage">UIImageView</string>
+						<string key="mImage">ImageViewManager</string>
 						<string key="mSpinner">UIActivityIndicatorView</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
@@ -243,7 +245,7 @@
 						</object>
 						<object class="IBToOneOutletInfo" key="mImage">
 							<string key="name">mImage</string>
-							<string key="candidateClassName">UIImageView</string>
+							<string key="candidateClassName">ImageViewManager</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="mSpinner">
 							<string key="name">mSpinner</string>
@@ -253,6 +255,14 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">./Classes/ImageManagerViewController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">ImageViewManager</string>
+					<string key="superclassName">UIImageView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/ImageViewManager.h</string>
 					</object>
 				</object>
 			</array>

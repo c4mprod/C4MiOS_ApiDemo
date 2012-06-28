@@ -6,6 +6,12 @@
 	<array>
 		<dict>
 			<key>label</key>
+			<string>AutoResizeLabel</string>
+			<key>controller</key>
+			<string>AutoResizeLabelViewController</string>
+		</dict>
+		<dict>
+			<key>label</key>
 			<string>Gallery</string>
 			<key>controller</key>
 			<string>GalleryViewController</string>

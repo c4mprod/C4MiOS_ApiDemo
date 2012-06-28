@@ -13,8 +13,7 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU Lesser General Public License for more details.
  * 
- * You should have received a copy of the GNU Lesser General Public License
- * along with C4MiOS_ApiDemo. If not, see <http://www.gnu.org/licenses/lgpl.html>.
+ * You should have received a copy of the GNU Lesser General Public License * along with C4MiOS_ApiDemo. If not, see <http://www.gnu.org/licenses/lgpl.html>.
  * 
  * Contributors:
  * C4M PROD - initial API and implementation
@@ -57,30 +56,15 @@
 
 - (IBAction)onFetch:(id)sender
 {
-    mSpinner.hidden = FALSE;
-    mImage.hidden = TRUE;
-    
     if (mImageManagerInstance == nil)
 	{
 		mImageManagerInstance = [[ImageManager alloc] init];
 		
 	}
-    
     //Can be used with a UITableViewCell Image in a list
-    mImage.image = [mImageManagerInstance getImageNamed:@"http://www.c4mprod.com/wp-content/themes/C4M/images/logo_c4m.png" withDelegate:self];
+    [mImageManagerInstance getImageNamed:@"http://www.c4mprod.com/wp-content/themes/C4M/images/logo_c4m.png" withDelegate:mImage];
     
 }
 
-- (void) didUpdateImage:(NSArray*)_array
-{
-    mSpinner.hidden = TRUE;
-    mImage.hidden = FALSE;
-    
-}
-
-- (void) willUpdateImage {
-    
-    
-}
 
 @end

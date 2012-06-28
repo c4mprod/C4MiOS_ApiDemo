@@ -27,6 +27,7 @@
 #import "JSONVerifierViewController.h"
 #import "PotentiometerViewController.h"
 #import "GalleryViewController.h"
+#import "AutoResizeLabelViewController.h"
 
 @interface MasterViewController ()
 
@@ -125,6 +126,12 @@
         }  else if ([ctrl isEqualToString:@"GalleryViewController"]){
             GalleryViewController *cvc = [[[GalleryViewController alloc] initWithNibName:@"GalleryViewController" bundle:nil] autorelease];
             [self.navigationController pushViewController:cvc animated:YES];
+        }
+        else if ([ctrl isEqualToString:@"AutoResizeLabelViewController"])
+        {
+            AutoResizeLabelViewController* cvc = [[AutoResizeLabelViewController alloc] initWithNibName:nil bundle:nil];
+            [self.navigationController pushViewController:cvc animated:YES];
+            [cvc release];
         }
         
         
