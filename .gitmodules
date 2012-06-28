@@ -25,3 +25,9 @@
 [submodule "C4MProject/Library/C4MiOS_LocationManager"]
 	path = C4MProject/Library/C4MiOS_LocationManager
 	url = https://github.com/c4mprod/C4MiOS_LocationManager.git
+[submodule "C4MProject/Library/C4MiOS_GalleryView"]
+	path = C4MProject/Library/C4MiOS_GalleryView
+	url = https://github.com/c4mprod/C4MiOS_GalleryView.git
+[submodule "C4MProject/Library/C4MAndroid_ImageManager"]
+	path = C4MProject/Library/C4MAndroid_ImageManager
+	url = https://github.com/c4mprod/C4MAndroid_ImageManager.git
