@@ -28,6 +28,7 @@
 #import "PotentiometerViewController.h"
 #import "GalleryViewController.h"
 #import "AutoResizeLabelViewController.h"
+#import "CustomPopupViewController.h"
 
 @interface MasterViewController ()
 
@@ -132,6 +133,9 @@
             AutoResizeLabelViewController* cvc = [[AutoResizeLabelViewController alloc] initWithNibName:nil bundle:nil];
             [self.navigationController pushViewController:cvc animated:YES];
             [cvc release];
+        }  else if ([ctrl isEqualToString:@"CustomPopupViewController"]){
+            CustomPopupViewController *cvc = [[[CustomPopupViewController alloc] initWithNibName:@"CustomPopupViewController" bundle:nil] autorelease];
+            [self.navigationController pushViewController:cvc animated:YES];
         }
         
         
