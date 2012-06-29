@@ -1007,6 +1007,7 @@
 		31EC663215249154008C711E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: C4MProd";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/C4MProject/Library/QuincyKit\"",
@@ -1020,6 +1021,7 @@
 					"\"$(SRCROOT)/C4MProject/Library/GoogleAnalytics\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7CD61113-4F16-4B40-8607-E9A9C8BD931C";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;

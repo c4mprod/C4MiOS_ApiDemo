@@ -12,9 +12,11 @@
 @interface LocationManagerViewController : UIViewController <C4MLocationManagerDelegate>
 
 @property (retain, nonatomic) IBOutlet UIButton *mButtonStartGeoloc;
-@property (retain, nonatomic) IBOutlet UILabel *mGeolocLabel;
+//@property (retain, nonatomic) IBOutlet UILabel *mGeolocLabel;
 @property (retain, nonatomic) IBOutlet UILabel *mCurrentLocation;
+@property (retain, nonatomic) IBOutlet UILabel *mUserLocation;
 - (IBAction)updateGeoloc:(id)sender;
 - (IBAction)startLocation:(id)sender;
+- (IBAction)getUserLocation:(id)sender;
 
 @end
