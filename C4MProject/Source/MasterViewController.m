@@ -29,6 +29,7 @@
 #import "GalleryViewController.h"
 #import "AutoResizeLabelViewController.h"
 #import "CustomPopupViewController.h"
+#import "LocationManagerViewController.h"
 
 @interface MasterViewController ()
 
@@ -106,7 +107,7 @@
     
     NSDictionary* itemDic = [datas objectAtIndex:indexPath.row];
     NSString* ctrl = [itemDic objectForKey:@"controller"];
-    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     if (ctrl)
     {
         if ([ctrl isEqualToString:@"RequestManagerViewController"]){
@@ -137,12 +138,14 @@
             CustomPopupViewController *cvc = [[[CustomPopupViewController alloc] initWithNibName:@"CustomPopupViewController" bundle:nil] autorelease];
             [self.navigationController pushViewController:cvc animated:YES];
         }
-        
+        else if([ctrl isEqualToString:@"C4MLocationManager"])
+        {
+            LocationManagerViewController* cvc = [[LocationManagerViewController alloc] initWithNibName:nil bundle:nil];
+            [self.navigationController pushViewController:cvc animated:YES];
+            [cvc release];
+        }
         
     }
-    
-	
-    
 }
 
 

@@ -119,6 +119,8 @@
 		6686DEA61598B6CD00E24E07 /* api.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6686DEA51598B6CD00E24E07 /* api.plist */; };
 		6686DEAA1598B9F100E24E07 /* ImageManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6686DEA81598B9F100E24E07 /* ImageManagerViewController.m */; };
 		6686DEAB1598B9F100E24E07 /* ImageManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6686DEA91598B9F100E24E07 /* ImageManagerViewController.xib */; };
+		99C4EB0C159D9D9C00082193 /* LocationManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C4EB0A159D9D9C00082193 /* LocationManagerViewController.m */; };
+		99C4EB0D159D9D9C00082193 /* LocationManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C4EB0B159D9D9C00082193 /* LocationManagerViewController.xib */; };
 		99DCB57F159C64B300602E4E /* AutoResizeLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DCB57D159C64B300602E4E /* AutoResizeLabelViewController.m */; };
 		99DCB580159C64B300602E4E /* AutoResizeLabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99DCB57E159C64B300602E4E /* AutoResizeLabelViewController.xib */; };
 /* End PBXBuildFile section */
@@ -291,6 +293,9 @@
 		6686DEA71598B9F100E24E07 /* ImageManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManagerViewController.h; sourceTree = "<group>"; };
 		6686DEA81598B9F100E24E07 /* ImageManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManagerViewController.m; sourceTree = "<group>"; };
 		6686DEA91598B9F100E24E07 /* ImageManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageManagerViewController.xib; sourceTree = "<group>"; };
+		99C4EB09159D9D9C00082193 /* LocationManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManagerViewController.h; sourceTree = "<group>"; };
+		99C4EB0A159D9D9C00082193 /* LocationManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManagerViewController.m; sourceTree = "<group>"; };
+		99C4EB0B159D9D9C00082193 /* LocationManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationManagerViewController.xib; sourceTree = "<group>"; };
 		99DCB57C159C64B300602E4E /* AutoResizeLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutoResizeLabelViewController.h; path = AutoResizeLabel/AutoResizeLabelViewController.h; sourceTree = "<group>"; };
 		99DCB57D159C64B300602E4E /* AutoResizeLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AutoResizeLabelViewController.m; path = AutoResizeLabel/AutoResizeLabelViewController.m; sourceTree = "<group>"; };
 		99DCB57E159C64B300602E4E /* AutoResizeLabelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AutoResizeLabelViewController.xib; path = AutoResizeLabel/AutoResizeLabelViewController.xib; sourceTree = "<group>"; };
@@ -484,6 +489,7 @@
 				31EC6674152493FE008C711E /* MasterViewController.h */,
 				31EC6675152493FE008C711E /* MasterViewController.m */,
 				31EC6676152493FE008C711E /* MasterViewController.xib */,
+				99C4EB07159D9D7F00082193 /* LocationManager */,
 				99DCB57B159C646800602E4E /* AutoResizeLabel */,
 				6686DE961598AE5C00E24E07 /* ImageManager */,
 				6686DE971598AE5C00E24E07 /* RequestManager */,
@@ -751,6 +757,16 @@
 			path = RequestManager;
 			sourceTree = "<group>";
 		};
+		99C4EB07159D9D7F00082193 /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				99C4EB09159D9D9C00082193 /* LocationManagerViewController.h */,
+				99C4EB0A159D9D9C00082193 /* LocationManagerViewController.m */,
+				99C4EB0B159D9D9C00082193 /* LocationManagerViewController.xib */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
 		99DCB57B159C646800602E4E /* AutoResizeLabel */ = {
 			isa = PBXGroup;
 			children = (
@@ -863,6 +879,7 @@
 				6637316E159CBA19003748BB /* README.md in Resources */,
 				66373170159CBA19003748BB /* README.md in Resources */,
 				66373179159CBC27003748BB /* README.md in Resources */,
+				99C4EB0D159D9D9C00082193 /* LocationManagerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -922,6 +939,7 @@
 				6637316F159CBA19003748BB /* C4MiOS_UIAutoResizeLabel.m in Sources */,
 				66373177159CBC27003748BB /* Gallery.m in Sources */,
 				66373178159CBC27003748BB /* GalleryCell.m in Sources */,
+				99C4EB0C159D9D9C00082193 /* LocationManagerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
