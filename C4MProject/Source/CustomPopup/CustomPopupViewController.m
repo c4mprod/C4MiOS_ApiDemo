@@ -68,6 +68,23 @@
     
 }
 
+- (IBAction)onCustomPopup:(id)sender {
+    
+    CustomPopupFrameViewController* tmpPopup = [[CustomPopupFrameViewController alloc] initWithNibName:@"CustomPopupFrameViewController" bundle:nil];
+    //CALayer *tmpLayer = [tmpPopup layer];
+    //[tmpLayer setCornerRadius:15.0f];
+    
+    UILabel *titre = (UILabel *)[tmpPopup.view viewWithTag:1];
+    titre.text = [NSString stringWithFormat:@"%@", @"Question"];
+    
+    UILabel *msg = (UILabel *)[tmpPopup.view viewWithTag:2];
+    msg.text = [NSString stringWithFormat:@"%@", @"Here is a nice custom popup"];
+    
+    [C4MPopup showCustomPopup:tmpPopup withDelegate:self];
+    [tmpPopup release];
+    
+}
+
 - (void)dealloc {
     [mCustomAlert release];
     [super dealloc];
