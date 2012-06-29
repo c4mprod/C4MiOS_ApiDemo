@@ -15,6 +15,7 @@
 @implementation LocationManagerViewController
 @synthesize mButtonStartGeoloc;
 //@synthesize mGeolocLabel;
+@synthesize mTextfieldAddress;
 @synthesize mCurrentLocation;
 @synthesize mUserLocation;
 
@@ -33,6 +34,17 @@
      addObserver:self 
      selector:@selector(receiveUserLocation:) 
      name:@"receiveUserLocation" object:nil];
+    
+    [[NSNotificationCenter defaultCenter] 
+     addObserver:self 
+     selector:@selector(receiveObjectFromAddrString:) 
+     name:@"getCoordinationFromAddrString" object:nil];
+    
+    [[NSNotificationCenter defaultCenter] 
+     addObserver:self 
+     selector:@selector(receiveError:) 
+     name:@"receiveError" object:nil];
+    
     return self;
 }
 
@@ -48,6 +60,7 @@
     [self setMCurrentLocation:nil];
     [self setMButtonStartGeoloc:nil];
     [self setMUserLocation:nil];
+    [self setMTextfieldAddress:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -69,15 +82,20 @@
 
 - (void)receivePlaceMark:(NSDictionary*)_placeMark
 {
-    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"" message:_placeMark.description delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"receivePlaceMark" message:_placeMark.description delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
     [alert show];
     [alert release];
     
 }
-
-- (void)receiveError:(NSError*)_error
+- (void)receiveObjectFromAddrString:(NSNotification*)_notification
 {
-    
+    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"receiveObjectFromAddrString" message:[NSString stringWithFormat:@"%@",[_notification object]] delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+    [alert show];
+    [alert release];
+}
+- (void)receiveError:(NSNotification*)_notification
+{
+    NSLog(@"Error : %@",((NSError*)[_notification object]).localizedDescription);
 }
 
 - (void)receiveCoordinateFromLocation:(NSDictionary*)_coordinateDictionary
@@ -86,21 +104,15 @@
     NSLog(@"receiveCoordinateFromLocation");
 }
 
-- (IBAction)updateGeoloc:(id)sender 
+- (IBAction)getPlaceMark:(id)sender 
 {
-/*
-    C4MLocationManager* loc = [[C4MLocationManager alloc] init];
-    [loc getPlaceMarkFromCurrentLocation];
-    [loc release];*/
+
     [C4MLocationManager getPlaceMarkFromCurrentLocationWithIdentifier:@"placeMarkIdentifier"];
 }
 
 - (IBAction)startLocation:(id)sender 
 {
-   /* C4MLocationManager* loc = [[C4MLocationManager alloc] init];
-    loc.mDelegate = self;
-    [loc startLocationWithAccuracy:kCLLocationAccuracyBest];
-    [loc release];*/
+
     
 }
 
@@ -109,11 +121,18 @@
     [C4MLocationManager getUserLocationWithIdentifier:@"getUserLocation"];
 }
 
+- (IBAction)onValidAddr:(id)sender 
+{
+    [mTextfieldAddress resignFirstResponder];
+    [C4MLocationManager getCoordinationFromAddrString:mTextfieldAddress.text withIdentifier:@"getCoordinationFromAddrString"];
+}
+
 - (void)dealloc {
    // [mGeolocLabel release];
     [mCurrentLocation release];
     [mButtonStartGeoloc release];
     [mUserLocation release];
+    [mTextfieldAddress release];
     [super dealloc];
 }
 @end
