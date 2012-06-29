@@ -22,9 +22,15 @@
 
 #import <UIKit/UIKit.h>
 #import "CustomAlert.h"
+#import "CustomPopup.h"
+#import "CustomPopupFrameViewController.h"
 
-@interface CustomPopupViewController : UIViewController
+@interface CustomPopupViewController : UIViewController <UIAlertViewDelegate>
 
 @property (retain, nonatomic) IBOutlet UIButton *mCustomAlert;
+
+- (IBAction)onCustomPopup:(id)sender;
+- (IBAction)onCustomAlert:(id)sender;
+
 
 @end
