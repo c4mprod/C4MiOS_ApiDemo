@@ -24,7 +24,7 @@
 #import "C4MRequestGroup.h"
 #import "C4MRequestManager.h"
 
-@interface RequestManagerViewController : UIViewController <JSonResponseHandler>
+@interface RequestManagerViewController : UIViewController <JSonResponseHandler, UITextFieldDelegate>
 {
     UITextField* mUrl;
     UIButton* mPerfomBtn;
@@ -39,5 +39,6 @@
 @property (retain, nonatomic) IBOutlet UIActivityIndicatorView* mSpinner;
 
 - (IBAction)onBtnAction:(id)sender;
+- (IBAction)onBgTap:(id)sender;
 
 @end
