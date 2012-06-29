@@ -59,8 +59,14 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (IBAction)onBgTap:(id)sender
+{
+    [mUrl resignFirstResponder];
+}
 
 - (IBAction)onBtnAction:(id)sender {
+    
+    [mUrl resignFirstResponder];
     
     //UIButton *btn = (UIButton*) sender;
     
@@ -86,6 +92,15 @@
     mAnswer.text = @"";
     
     return [requestGroup release];	
+}
+
+#pragma mark -
+#pragma mark UITextView Methods
+
+- (BOOL) textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
 }
 
 
