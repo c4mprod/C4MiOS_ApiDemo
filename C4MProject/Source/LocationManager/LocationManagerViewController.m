@@ -107,7 +107,7 @@
 - (IBAction)getPlaceMark:(id)sender 
 {
 
-    [C4MLocationManager getPlaceMarkFromCurrentLocationWithIdentifier:@"placeMarkIdentifier"];
+    [C4MLocationManager getPlaceMarkFromCurrentLocation];
 }
 
 - (IBAction)startLocation:(id)sender 
@@ -118,7 +118,7 @@
 
 - (IBAction)getUserLocation:(id)sender 
 {
-    [C4MLocationManager getUserLocationWithIdentifier:@"getUserLocation"];
+    [C4MLocationManager getUserLocation];
 }
 
 - (IBAction)onValidAddr:(id)sender 

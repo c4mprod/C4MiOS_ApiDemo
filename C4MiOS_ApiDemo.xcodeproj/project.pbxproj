@@ -502,8 +502,8 @@
 			children = (
 				31EC661715249153008C711E /* AppDelegate.h */,
 				31EC661815249153008C711E /* AppDelegate.m */,
-				31EC6674152493FE008C711E /* MasterViewController.h */,
 				31EC6675152493FE008C711E /* MasterViewController.m */,
+				31EC6674152493FE008C711E /* MasterViewController.h */,
 				31EC6676152493FE008C711E /* MasterViewController.xib */,
 				99C4EB07159D9D7F00082193 /* LocationManager */,
 				99DCB57B159C646800602E4E /* AutoResizeLabel */,
@@ -1041,7 +1041,7 @@
 		31EC663215249154008C711E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: C4MProd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mathieu Castelli (NRHJ5C2RXP)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/C4MProject/Library/QuincyKit\"",
@@ -1055,7 +1055,7 @@
 					"\"$(SRCROOT)/C4MProject/Library/GoogleAnalytics\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7CD61113-4F16-4B40-8607-E9A9C8BD931C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E6AD2EF9-2000-488A-8FD3-DD8DB96EC382";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
