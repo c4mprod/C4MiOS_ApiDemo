@@ -127,6 +127,25 @@
 		6686DEA61598B6CD00E24E07 /* api.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6686DEA51598B6CD00E24E07 /* api.plist */; };
 		6686DEAA1598B9F100E24E07 /* ImageManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6686DEA81598B9F100E24E07 /* ImageManagerViewController.m */; };
 		6686DEAB1598B9F100E24E07 /* ImageManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6686DEA91598B9F100E24E07 /* ImageManagerViewController.xib */; };
+		9986123515A2E4C700E3ECEB /* C4MTabBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9986122A15A2E4C700E3ECEB /* C4MTabBarCell.m */; };
+		9986123615A2E4C700E3ECEB /* C4MTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9986122C15A2E4C700E3ECEB /* C4MTabBarController.m */; };
+		9986123715A2E4C700E3ECEB /* TabBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9986122E15A2E4C700E3ECEB /* TabBarCell.m */; };
+		9986123815A2E4C700E3ECEB /* TabBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9986122F15A2E4C700E3ECEB /* TabBarCell.xib */; };
+		9986123915A2E4C700E3ECEB /* TouchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9986123115A2E4C700E3ECEB /* TouchTableView.m */; };
+		9986123A15A2E4C700E3ECEB /* UIImage-Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 9986123415A2E4C700E3ECEB /* UIImage-Alpha.m */; };
+		9986124015A2E5A300E3ECEB /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9986123E15A2E5A300E3ECEB /* TabBarViewController.m */; };
+		9986124115A2E5A300E3ECEB /* TabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9986123F15A2E5A300E3ECEB /* TabBarViewController.xib */; };
+		9986125415A2FE7800E3ECEB /* icon_footer_historique.png in Resources */ = {isa = PBXBuildFile; fileRef = 9986125215A2FE7700E3ECEB /* icon_footer_historique.png */; };
+		9986125515A2FE7800E3ECEB /* icon_footer_historique@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9986125315A2FE7800E3ECEB /* icon_footer_historique@2x.png */; };
+		9986125715A31B5C00E3ECEB /* tabBar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9986125615A31B5C00E3ECEB /* tabBar_background.png */; };
+		9986125915A31CE100E3ECEB /* tabBar_background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9986125815A31CE000E3ECEB /* tabBar_background2.png */; };
+		9986125C15A3374A00E3ECEB /* icon_footer_reglages.png in Resources */ = {isa = PBXBuildFile; fileRef = 9986125A15A3374800E3ECEB /* icon_footer_reglages.png */; };
+		9986125D15A3374A00E3ECEB /* icon_footer_reglages@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9986125B15A3374900E3ECEB /* icon_footer_reglages@2x.png */; };
+		9986126215A3395000E3ECEB /* icon_footer_historique_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 9986125E15A3394D00E3ECEB /* icon_footer_historique_off.png */; };
+		9986126315A3395000E3ECEB /* icon_footer_historique_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9986125F15A3394E00E3ECEB /* icon_footer_historique_off@2x.png */; };
+		9986126415A3395000E3ECEB /* icon_footer_reglages_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 9986126015A3394F00E3ECEB /* icon_footer_reglages_off.png */; };
+		9986126515A3395000E3ECEB /* icon_footer_reglages_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9986126115A3395000E3ECEB /* icon_footer_reglages_off@2x.png */; };
+		9986126715A33BFB00E3ECEB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9986126615A33BF900E3ECEB /* README.md */; };
 		99C4EB0C159D9D9C00082193 /* LocationManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C4EB0A159D9D9C00082193 /* LocationManagerViewController.m */; };
 		99C4EB0D159D9D9C00082193 /* LocationManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C4EB0B159D9D9C00082193 /* LocationManagerViewController.xib */; };
 		99DCB57F159C64B300602E4E /* AutoResizeLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DCB57D159C64B300602E4E /* AutoResizeLabelViewController.m */; };
@@ -310,6 +329,31 @@
 		6686DEA71598B9F100E24E07 /* ImageManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManagerViewController.h; sourceTree = "<group>"; };
 		6686DEA81598B9F100E24E07 /* ImageManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManagerViewController.m; sourceTree = "<group>"; };
 		6686DEA91598B9F100E24E07 /* ImageManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageManagerViewController.xib; sourceTree = "<group>"; };
+		9986122915A2E4C700E3ECEB /* C4MTabBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4MTabBarCell.h; sourceTree = "<group>"; };
+		9986122A15A2E4C700E3ECEB /* C4MTabBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4MTabBarCell.m; sourceTree = "<group>"; };
+		9986122B15A2E4C700E3ECEB /* C4MTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4MTabBarController.h; sourceTree = "<group>"; };
+		9986122C15A2E4C700E3ECEB /* C4MTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4MTabBarController.m; sourceTree = "<group>"; };
+		9986122D15A2E4C700E3ECEB /* TabBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarCell.h; sourceTree = "<group>"; };
+		9986122E15A2E4C700E3ECEB /* TabBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarCell.m; sourceTree = "<group>"; };
+		9986122F15A2E4C700E3ECEB /* TabBarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarCell.xib; sourceTree = "<group>"; };
+		9986123015A2E4C700E3ECEB /* TouchTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchTableView.h; sourceTree = "<group>"; };
+		9986123115A2E4C700E3ECEB /* TouchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchTableView.m; sourceTree = "<group>"; };
+		9986123315A2E4C700E3ECEB /* UIImage-Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-Alpha.h"; sourceTree = "<group>"; };
+		9986123415A2E4C700E3ECEB /* UIImage-Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage-Alpha.m"; sourceTree = "<group>"; };
+		9986123D15A2E5A300E3ECEB /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		9986123E15A2E5A300E3ECEB /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		9986123F15A2E5A300E3ECEB /* TabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarViewController.xib; sourceTree = "<group>"; };
+		9986125215A2FE7700E3ECEB /* icon_footer_historique.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_footer_historique.png; sourceTree = "<group>"; };
+		9986125315A2FE7800E3ECEB /* icon_footer_historique@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_footer_historique@2x.png"; sourceTree = "<group>"; };
+		9986125615A31B5C00E3ECEB /* tabBar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBar_background.png; sourceTree = "<group>"; };
+		9986125815A31CE000E3ECEB /* tabBar_background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBar_background2.png; sourceTree = "<group>"; };
+		9986125A15A3374800E3ECEB /* icon_footer_reglages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_footer_reglages.png; sourceTree = "<group>"; };
+		9986125B15A3374900E3ECEB /* icon_footer_reglages@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_footer_reglages@2x.png"; sourceTree = "<group>"; };
+		9986125E15A3394D00E3ECEB /* icon_footer_historique_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_footer_historique_off.png; sourceTree = "<group>"; };
+		9986125F15A3394E00E3ECEB /* icon_footer_historique_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_footer_historique_off@2x.png"; sourceTree = "<group>"; };
+		9986126015A3394F00E3ECEB /* icon_footer_reglages_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_footer_reglages_off.png; sourceTree = "<group>"; };
+		9986126115A3395000E3ECEB /* icon_footer_reglages_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_footer_reglages_off@2x.png"; sourceTree = "<group>"; };
+		9986126615A33BF900E3ECEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = C4MProject/Source/tabBarController/README.md; sourceTree = SOURCE_ROOT; };
 		99C4EB09159D9D9C00082193 /* LocationManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManagerViewController.h; sourceTree = "<group>"; };
 		99C4EB0A159D9D9C00082193 /* LocationManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManagerViewController.m; sourceTree = "<group>"; };
 		99C4EB0B159D9D9C00082193 /* LocationManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationManagerViewController.xib; sourceTree = "<group>"; };
@@ -429,6 +473,7 @@
 				6637313E159CBA19003748BB /* C4MiOS_Potentiometer */,
 				66373143159CBA19003748BB /* C4MiOS_RequestManager */,
 				6637314E159CBA19003748BB /* C4MiOS_UIAutoResizeLabel */,
+				9986122815A2E4C700E3ECEB /* C4MIOS_TabBarController */,
 				31EC669F15249901008C711E /* GoogleAnalytics */,
 				31EC669B152497EA008C711E /* LocalizedLabel */,
 				31EC663F152493E7008C711E /* HockeyKit */,
@@ -502,9 +547,10 @@
 			children = (
 				31EC661715249153008C711E /* AppDelegate.h */,
 				31EC661815249153008C711E /* AppDelegate.m */,
-				31EC6675152493FE008C711E /* MasterViewController.m */,
 				31EC6674152493FE008C711E /* MasterViewController.h */,
+				31EC6675152493FE008C711E /* MasterViewController.m */,
 				31EC6676152493FE008C711E /* MasterViewController.xib */,
+				9986123C15A2E57000E3ECEB /* tabBarController */,
 				99C4EB07159D9D7F00082193 /* LocationManager */,
 				99DCB57B159C646800602E4E /* AutoResizeLabel */,
 				6686DE961598AE5C00E24E07 /* ImageManager */,
@@ -783,6 +829,53 @@
 			path = RequestManager;
 			sourceTree = "<group>";
 		};
+		9986122815A2E4C700E3ECEB /* C4MIOS_TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				9986126615A33BF900E3ECEB /* README.md */,
+				9986122915A2E4C700E3ECEB /* C4MTabBarCell.h */,
+				9986122A15A2E4C700E3ECEB /* C4MTabBarCell.m */,
+				9986122B15A2E4C700E3ECEB /* C4MTabBarController.h */,
+				9986122C15A2E4C700E3ECEB /* C4MTabBarController.m */,
+				9986122D15A2E4C700E3ECEB /* TabBarCell.h */,
+				9986122E15A2E4C700E3ECEB /* TabBarCell.m */,
+				9986122F15A2E4C700E3ECEB /* TabBarCell.xib */,
+				9986123015A2E4C700E3ECEB /* TouchTableView.h */,
+				9986123115A2E4C700E3ECEB /* TouchTableView.m */,
+				9986123215A2E4C700E3ECEB /* UIImage-Alpha */,
+			);
+			path = C4MIOS_TabBarController;
+			sourceTree = "<group>";
+		};
+		9986123215A2E4C700E3ECEB /* UIImage-Alpha */ = {
+			isa = PBXGroup;
+			children = (
+				9986123315A2E4C700E3ECEB /* UIImage-Alpha.h */,
+				9986123415A2E4C700E3ECEB /* UIImage-Alpha.m */,
+			);
+			path = "UIImage-Alpha";
+			sourceTree = "<group>";
+		};
+		9986123C15A2E57000E3ECEB /* tabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				9986125E15A3394D00E3ECEB /* icon_footer_historique_off.png */,
+				9986125F15A3394E00E3ECEB /* icon_footer_historique_off@2x.png */,
+				9986126015A3394F00E3ECEB /* icon_footer_reglages_off.png */,
+				9986126115A3395000E3ECEB /* icon_footer_reglages_off@2x.png */,
+				9986125A15A3374800E3ECEB /* icon_footer_reglages.png */,
+				9986125B15A3374900E3ECEB /* icon_footer_reglages@2x.png */,
+				9986125815A31CE000E3ECEB /* tabBar_background2.png */,
+				9986125615A31B5C00E3ECEB /* tabBar_background.png */,
+				9986125215A2FE7700E3ECEB /* icon_footer_historique.png */,
+				9986125315A2FE7800E3ECEB /* icon_footer_historique@2x.png */,
+				9986123D15A2E5A300E3ECEB /* TabBarViewController.h */,
+				9986123E15A2E5A300E3ECEB /* TabBarViewController.m */,
+				9986123F15A2E5A300E3ECEB /* TabBarViewController.xib */,
+			);
+			path = tabBarController;
+			sourceTree = "<group>";
+		};
 		99C4EB07159D9D7F00082193 /* LocationManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -913,6 +1006,19 @@
 				66155383159DD33500B884CD /* close_btn_on@2x.png in Resources */,
 				66155384159DD33500B884CD /* custom_popup.png in Resources */,
 				66155385159DD33500B884CD /* custom_popup@2x.png in Resources */,
+				9986123815A2E4C700E3ECEB /* TabBarCell.xib in Resources */,
+				9986124115A2E5A300E3ECEB /* TabBarViewController.xib in Resources */,
+				9986125415A2FE7800E3ECEB /* icon_footer_historique.png in Resources */,
+				9986125515A2FE7800E3ECEB /* icon_footer_historique@2x.png in Resources */,
+				9986125715A31B5C00E3ECEB /* tabBar_background.png in Resources */,
+				9986125915A31CE100E3ECEB /* tabBar_background2.png in Resources */,
+				9986125C15A3374A00E3ECEB /* icon_footer_reglages.png in Resources */,
+				9986125D15A3374A00E3ECEB /* icon_footer_reglages@2x.png in Resources */,
+				9986126215A3395000E3ECEB /* icon_footer_historique_off.png in Resources */,
+				9986126315A3395000E3ECEB /* icon_footer_historique_off@2x.png in Resources */,
+				9986126415A3395000E3ECEB /* icon_footer_reglages_off.png in Resources */,
+				9986126515A3395000E3ECEB /* icon_footer_reglages_off@2x.png in Resources */,
+				9986126715A33BFB00E3ECEB /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -974,6 +1080,12 @@
 				66373178159CBC27003748BB /* GalleryCell.m in Sources */,
 				99C4EB0C159D9D9C00082193 /* LocationManagerViewController.m in Sources */,
 				66155377159DB4D000B884CD /* CustomPopupFrameViewController.m in Sources */,
+				9986123515A2E4C700E3ECEB /* C4MTabBarCell.m in Sources */,
+				9986123615A2E4C700E3ECEB /* C4MTabBarController.m in Sources */,
+				9986123715A2E4C700E3ECEB /* TabBarCell.m in Sources */,
+				9986123915A2E4C700E3ECEB /* TouchTableView.m in Sources */,
+				9986123A15A2E4C700E3ECEB /* UIImage-Alpha.m in Sources */,
+				9986124015A2E5A300E3ECEB /* TabBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1041,7 +1153,7 @@
 		31EC663215249154008C711E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mathieu Castelli (NRHJ5C2RXP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: C4MProd";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/C4MProject/Library/QuincyKit\"",
@@ -1055,7 +1167,7 @@
 					"\"$(SRCROOT)/C4MProject/Library/GoogleAnalytics\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E6AD2EF9-2000-488A-8FD3-DD8DB96EC382";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7CD61113-4F16-4B40-8607-E9A9C8BD931C";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;

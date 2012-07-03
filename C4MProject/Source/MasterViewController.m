@@ -30,6 +30,7 @@
 #import "AutoResizeLabelViewController.h"
 #import "CustomPopupViewController.h"
 #import "LocationManagerViewController.h"
+#import "TabBarViewController.h"
 
 @interface MasterViewController ()
 
@@ -141,6 +142,12 @@
         else if([ctrl isEqualToString:@"C4MLocationManager"])
         {
             LocationManagerViewController* cvc = [[LocationManagerViewController alloc] initWithNibName:nil bundle:nil];
+            [self.navigationController pushViewController:cvc animated:YES];
+            [cvc release];
+        }
+        else if ([ctrl isEqualToString:@"C4MTabBarController"])
+        {
+            TabBarViewController* cvc = [[TabBarViewController alloc] initWithNibName:nil bundle:nil];
             [self.navigationController pushViewController:cvc animated:YES];
             [cvc release];
         }

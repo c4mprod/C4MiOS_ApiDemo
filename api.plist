@@ -6,6 +6,12 @@
 	<array>
 		<dict>
 			<key>label</key>
+			<string>TabBar Controller</string>
+			<key>controller</key>
+			<string>C4MTabBarController</string>
+		</dict>
+		<dict>
+			<key>label</key>
 			<string>Location Manager</string>
 			<key>controller</key>
 			<string>C4MLocationManager</string>
